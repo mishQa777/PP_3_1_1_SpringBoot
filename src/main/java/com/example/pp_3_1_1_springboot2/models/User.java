@@ -16,10 +16,10 @@ public class User {
     @Column(name = "surname")
     private String surname;
 
-    @Column(name = "department")
+    @Column(name = "mail")
     private String mail;
 
-    @Column(name = "salary")
+    @Column(name = "age")
     private int age;
 
     public User() {
